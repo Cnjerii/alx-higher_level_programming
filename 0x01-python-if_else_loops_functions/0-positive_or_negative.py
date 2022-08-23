@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 import random
+number = int
+
 number = number.randint(-10, 10)
 
 
