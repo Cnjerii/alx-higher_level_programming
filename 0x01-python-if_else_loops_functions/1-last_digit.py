@@ -1,4 +1,4 @@
-#!/usr/bin/pyithon3
+#!/usr/bin/python3
 import random
 number = random.randint(-1000, 1000)
 lastDigit = number % 10 if number > 0 else int(repr(number)[-1]) * -1
