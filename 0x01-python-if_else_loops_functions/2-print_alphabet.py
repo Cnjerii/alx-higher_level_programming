@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-for a in "abcdefghijklmnopqrstuvwxyz":
-    print('{}'.format(a), end="")
+
+for x in range(97, 123):
+    print('{}'.format(chr(x)), end='')
