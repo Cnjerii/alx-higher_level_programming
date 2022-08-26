@@ -10,10 +10,10 @@ def commandline_args():
         print("{} argument.".format(len(args[1:])))
         for count, arg in enumerate(args[1:], start=1):
             print("{}: {}".format(count, arg))
-        else:
-            print("{}argument.".format(len(args[1:])))
-            for count, arg in enumerate(args[1:], start-1):
-                print("{}: {}".format(count, arg))
+    else:
+        print("{}argument.".format(len(args[1:])))
+        for count, arg in enumerate(args[1:], start-1):
+            print("{}: {}".format(count, arg))
 
-                if __name__ == "__main__":
-                    commandline_args()
+if __name__ == "__main__":
+    commandline_args()
