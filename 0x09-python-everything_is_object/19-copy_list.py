@@ -1,3 +1,3 @@
-my_list = [1, 2, 3]
-new_list = my_list.copy()
-print('Copied List:', new_list)
+#!/usr/bin/python3
+def copy_list(s):
+    return list (s)
