@@ -1,2 +1,1 @@
-#!/usr/bin/python3
-Using id
+id
